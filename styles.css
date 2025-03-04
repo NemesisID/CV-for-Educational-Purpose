@@ -17,7 +17,7 @@
   
   .cv-container {
     background-color: #ffffff;
-    box-shadow: 0 10px 30px rgba(52, 152, 219, 0.5), 0 20px 40px rgba(44, 62, 80, 0.3);
+    box-shadow: 0 10px 30px rgba(31, 90, 129, 0.5), 0 20px 40px rgba(27, 38, 49, 0.3);
     border-radius: 12px;
     overflow: hidden;
     margin: 0 auto;
@@ -30,10 +30,11 @@
   }
   
   .profile-image {
-    height: 355px;
-    width: 355px;
+    height: 356px;
+    width: 356px;
     position: relative;
     overflow: hidden;
+    border-right: 1px solid var(--border-color);
   }
   
   .profile-image img {
@@ -55,6 +56,7 @@
   }
   
   .profession {
+    padding-top: 20px;
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--primary-color);
